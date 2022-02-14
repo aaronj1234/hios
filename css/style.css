@@ -1,0 +1,222 @@
+html {
+	/*background-color: #FCFCFF;*/
+	background-color: black;
+	font-family: 'Outfit', sans-serif;
+	color: white;
+}
+
+.navButton {
+	height:60px;
+    	width:200px;
+	font-family: 'Outfit', sans-serif;
+	font-size: 20px;
+	background-color: #26abff;
+	color: white;
+	border-radius: 16px;
+	border: none;
+}
+	
+.navButtonInactive {
+	height:60px;
+	width:200px;
+	font-family: 'Outfit', sans-serif;
+	font-size: 20px;
+	background-color: #bfe6ff;
+	color: grey;
+	border-radius: 16px;
+	border: none;
+}
+
+.offerBox {
+	border-radius: 25px;
+	background: #006ee6;
+	padding: 10px;
+	width: 350px;
+}
+
+.offerBoxExpired {
+	border-radius: 25px;
+	background: red;
+	padding: 10px;
+	width: 350px;
+}
+
+.offerHeadings {
+	font-size: 35px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.offerBody {
+	font-size: 20px;
+}
+
+.offerExpiry {
+	font-size: 10px;
+	font-style: italic;
+}
+
+.offerDate {
+	font-size: 14px;
+	text-align: left;
+}
+
+.termsconditions {
+	background-color: #FCFCFF;
+	color: black;
+	font-family: 'Courier Prime', monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: black;
+    color: #FCFCFF;
+  }
+}
+
+#infoText {
+	font-family: 'Courier Prime', monospace;
+}
+
+#homeheading {
+	font-size: 40px;
+	animation: pulse 15s infinite;
+}
+
+#p11 {
+	font-size: 40px;
+	color: #0F9D58;
+}
+
+#p12 {
+	font-size: 40px;
+	color: #4285F4;
+}
+
+#para {
+	font-size: 20px;
+}
+
+#paraheadings {
+	font-size: 40px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#smallpara {
+	font-size: 10px;
+}
+
+#rightalign {
+	text-align: right;
+}
+
+.wrapper {
+	display: grid;
+ 	grid-template-columns: 400px 400px;
+	justify-content: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#rickroll {
+	font-size: 40px;
+	text-decoration: underline;
+	animation: pulse 10s infinite;
+}
+
+@keyframes pulse {
+  0% {
+	/*color: #FF4F4B;*/
+	color: #FF0000;
+  } /* Red */
+  
+  25% {
+	/*color: #a0d2eb;*/
+	color: #0000FF;
+  } /* Blue */
+  
+  50% {
+	/*color: #90EE90;*/
+	color: #228B22
+  } /* Green */
+  
+  75% {
+	/*color: #808080;*/
+	color: #FFFFFF;
+  } /* White */
+  
+  100% {
+	/*color: #494d5f;*/
+	color: orange;
+  } /* Black */
+}
+
+#nextButtonRoomkey {
+	/*float: right;*/
+	height:30px;
+	width:100px;
+	font-family: 'Outfit', sans-serif;
+	font-size: 15px;
+	background-color: #26abff;
+	color: white;
+	border-radius: 16px;
+	border: none;
+}
+
+#nextButtonRoomkey:hover {
+	background-color: #68c6ff; /* lightblue */
+	color: white;
+}
+
+#nextButtonRoomkey2 {
+	/*float: right;*/
+	height:30px;
+	width:100px;
+	font-family: 'Outfit', sans-serif;
+	font-size: 15px;
+	background-color: #26abff;
+	color: white;
+	border-radius: 16px;
+	border: none;
+}
+
+#nextButtonRoomkey2:hover {
+	background-color: #68c6ff; /* lightblue */
+	color: white;
+}
+
+.inputBox {
+	border-radius: 16px;
+	background-color: white;
+	border: none;
+	color: black;
+	height: 30px;
+	width: 100px;
+	font-family: 'Outfit', sans-serif;
+	text-align: center;
+	font-size: 15px;
+}
+
+#nfccheck {
+	display: block;
+}
+
+#roomunlock {
+	display: block;
+}
+
+.roundedImage {
+	border-radius: 15px;
+}
+
+#exitButton {
+	display: none;
+}
+
+#staffLogin {
+	display: block;
+}
+
+#mainHome {
+	display: none;
+}
